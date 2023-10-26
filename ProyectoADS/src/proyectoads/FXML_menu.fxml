@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="350.0" prefWidth="519.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="proyectoads.FXMLController">
+   <children>
+      <Label layoutX="239.0" layoutY="195.0" prefHeight="31.0" prefWidth="41.0" text="MENU" />
+      <Button fx:id="btnConsulta" layoutX="181.0" layoutY="303.0" mnemonicParsing="false" onAction="#btnConsultaAccion" prefHeight="25.0" prefWidth="158.0" text="Consultar Promedio" />
+      <Button fx:id="btnPensum" layoutX="188.0" layoutY="244.0" mnemonicParsing="false" onAction="#btnPensumAccion" prefHeight="25.0" prefWidth="142.0" text="Mostrar Pensum" />
+      <Button fx:id="btnAvance" layoutX="181.0" layoutY="361.0" mnemonicParsing="false" onAction="#btnAvanceAccion" prefHeight="25.0" prefWidth="158.0" text="Avance Estudiante" />
+      <ImageView fitHeight="168.0" fitWidth="292.0" layoutX="100.0" layoutY="44.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../../../Pictures/Camera%20Roll/Imagen%203%20ProyectoADS.jpeg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="235.0" fitWidth="81.0" layoutY="210.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../../../Pictures/Imagen%202%20PROYECTO%20ADS.jpeg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

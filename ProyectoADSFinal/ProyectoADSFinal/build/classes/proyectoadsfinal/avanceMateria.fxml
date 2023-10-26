@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="proyectoadsfinal.AvanceMateriaController">
+   <children>
+      <Text layoutX="66.0" layoutY="108.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Clase Consultada">
+         <font>
+            <Font size="62.0" />
+         </font>
+      </Text>
+      <Text fx:id="textCodigo" layoutX="78.0" layoutY="171.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Código" />
+      <Label fx:id="textCodigo1" layoutX="127.0" layoutY="158.0" text="CodigoLabel" />
+      <Text fx:id="creditos" layoutX="75.0" layoutY="241.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Creditos" />
+      <Label fx:id="textCredito" layoutX="124.0" layoutY="228.0" text="CreditosLabel" />
+      <Text fx:id="nff" layoutX="226.0" layoutY="171.0" strokeType="OUTSIDE" strokeWidth="0.0" text="NFF" />
+      <Label fx:id="textNff" layoutX="255.0" layoutY="158.0" text="NffLabel" />
+      <Label fx:id="textNombre" layoutX="278.0" layoutY="228.0" text="MateriaLabel" />
+      <Text fx:id="nombre" layoutX="226.0" layoutY="241.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Materia" />
+      <Text fx:id="profesor" layoutX="224.0" layoutY="317.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Profesor" />
+      <Label fx:id="textProfesor" layoutX="276.0" layoutY="304.0" text="ProfesorLabel" />
+      <Text fx:id="nota" layoutX="75.0" layoutY="317.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nota" />
+      <Label fx:id="textNota" layoutX="124.0" layoutY="304.0" text="NotaLabel" />
+   </children>
+</AnchorPane>

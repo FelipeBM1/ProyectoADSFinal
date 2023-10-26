@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="510.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="proyectoads.FXML_AvanceEstudianteController">
+   <children>
+      <ComboBox fx:id="ComboBoxSemestre" layoutX="79.0" layoutY="214.0" onAction="#ComboBoxSemestreAccion" prefHeight="25.0" prefWidth="94.0" promptText="Semestre" />
+      <ComboBox fx:id="ComboBoxMateria" layoutX="273.0" layoutY="214.0" prefWidth="150.0" promptText="Materia" visibleRowCount="8" />
+      <Label fx:id="LblInformacionNota" layoutX="334.0" layoutY="317.0" text="Label" />
+      <ImageView fitHeight="165.0" fitWidth="329.0" layoutX="87.0" layoutY="38.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../../../Pictures/Camera%20Roll/Imagen%203%20ProyectoADS.jpeg" />
+         </image>
+      </ImageView>
+      <Label fx:id="LblInformacionProfesor" layoutX="334.0" layoutY="274.0" text="Label" />
+   </children>
+</AnchorPane>
